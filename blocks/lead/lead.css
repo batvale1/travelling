@@ -1,0 +1,10 @@
+@import "../../fonts/Inter/inter.css";
+@import "./__heading/__heading.css";
+@import "./__image/__image.css";
+@import "./__image-caption/__image-caption.css";
+@import "./__images/__images.css";
+@import "./__text/__text.css";
+
+.lead {
+    font-family: Inter, Arial, sans-serif;
+}

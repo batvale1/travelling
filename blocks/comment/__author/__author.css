@@ -1,0 +1,14 @@
+.comment__author {
+    font-size: .875em;
+    line-height: 1.714em;
+    font-weight: 900;
+    align-self: flex-start;
+}
+
+@media screen and (max-width: 63.99rem) {
+    .comment__author {
+        align-self: initial;
+        order: 20;
+        margin: 1rem 0 0 0;
+    }
+}

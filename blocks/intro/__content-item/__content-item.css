@@ -1,0 +1,12 @@
+.intro__content-item {
+    font-size: .875em;
+    line-height: 1.7143em;
+    margin: 0;
+}
+
+@media screen and (max-width: 47.99rem) {
+    .intro__content-item {
+        font-size: 1em;
+        line-height: 1.6875em;
+    }
+}

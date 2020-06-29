@@ -1,0 +1,7 @@
+.header__languages {
+    font-family: Inter, Arial, sans-serif;
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 1.125em;
+    align-items: center;
+}

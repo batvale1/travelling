@@ -1,0 +1,16 @@
+.main__places {
+    margin: 5.75rem auto 0 auto;
+    max-width: 61.5rem;
+}
+
+@media screen and (max-width: 79.99rem) {
+    .main__places {
+        margin-top: 6.375rem;
+    }
+}
+
+@media screen and (max-width: 23.4375rem) {
+    .main__places {
+        margin-top: 4rem;
+    }
+}

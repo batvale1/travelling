@@ -1,0 +1,24 @@
+@import "../../fonts/Inter/inter.css";
+@import "./__img/__img.css";
+@import "./__content-item/__content-item.css";
+@import "./__content/__content.css";
+@import "./__heading/__heading.css";
+@import "./__link-group/__link-group.css";
+
+.places {
+    display: grid;
+    grid-row-gap: 4.5rem;
+    font-family: Inter, Arial, sans-serif;
+}
+
+@media screen and (max-width: 47.99rem) {
+    .places {
+        grid-row-gap: 5.0625rem;
+    }
+}
+
+@media screen and (max-width: 23.4375rem) {
+    .places {
+        grid-row-gap: 3rem;
+    }
+}

@@ -1,0 +1,7 @@
+.barentsburg__description {
+    display: grid;
+    grid-template-columns: minmax(max-content, 21em) 1fr;
+    grid-gap: 7.5rem;
+    margin: 3rem 0 0 0;
+    align-items: start;
+}

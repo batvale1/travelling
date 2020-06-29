@@ -1,0 +1,15 @@
+.lead__heading {
+    font-weight: 900;
+    font-size: 6em;
+    color: #FFF;
+    text-align: center;
+    margin: 0;
+    line-height: 0.96875em;
+}
+
+@media screen and (max-width: 47.99rem) {
+    .lead__heading {
+        font-size: 2.5em;
+        line-height: 1.1em;
+    }
+}

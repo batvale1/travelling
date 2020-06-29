@@ -1,0 +1,9 @@
+.main__comments {
+    margin: 6.375rem auto 0 auto;
+}
+
+@media screen and (max-width: 47.99rem) {
+    .main__comments {
+        margin-top: 4rem;
+    }
+}

@@ -1,0 +1,12 @@
+@import "../../fonts/Inter/inter.css";
+@import "./__title/__title.css";
+@import "./__container/__container.css";
+@import "./__item/__item.css";
+@import "./__img/__img.css";
+@import "./__item-title/__item-title.css";
+
+.emblem {
+    margin: 5.375rem auto 0 auto;
+    color: #fff;
+    font-family: Inter, Arial, sans-serif;
+}

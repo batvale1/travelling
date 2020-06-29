@@ -1,0 +1,15 @@
+@import "../../fonts/Inter/inter.css";
+@import "./__heading/__heading.css";
+@import "./__text/__text.css";
+@import "./_img-src/_img-src.css";
+
+.additional-item {
+    width: 17.75em;
+    height: 20.625em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: .4em;
+    background-size: cover;
+    background-position: center;
+}

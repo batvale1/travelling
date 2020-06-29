@@ -1,0 +1,10 @@
+.main__intro {
+    max-width: 61.5em;
+    margin: 5rem auto 0 auto;
+}
+
+@media screen and (max-width: 48rem) {
+    .main__intro {
+        margin-top: 4rem;
+    }
+}

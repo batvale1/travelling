@@ -1,0 +1,13 @@
+@import "../../fonts/Inter/inter.css";
+@import "./__heading/__heading.css";
+@import "./__container/__container.css";
+@import "./__subtitle/__subtitle.css";
+
+.additional {
+    margin: 6.375rem auto 0 auto;
+    color: #fff;
+    font-family: Inter, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

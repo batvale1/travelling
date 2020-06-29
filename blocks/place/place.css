@@ -1,0 +1,28 @@
+@import "../../fonts/Inter/inter.css";
+@import "./__img/__img.css";
+@import "./__content-item/__content-item.css";
+@import "./__content/__content.css";
+@import "./__heading/__heading.css";
+@import "./__link-group/__link-group.css";
+
+.place {
+    display: grid;
+    grid-template-columns: minmax(min-content, 28.75em) minmax(40%, 30.25em);
+    grid-row-gap: 3.75em;
+    grid-column-gap: 2.5em;
+    color: #fff;
+}
+
+@media screen and (max-width: 63.99rem) {
+    .place {
+        grid-template-columns: minmax(min-content, 21.25em) minmax(40%, 1fr);
+        grid-column-gap: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 47.99rem) {
+    .place {
+        grid-template-columns: 1fr;
+        grid-row-gap: 2rem;
+    }
+}

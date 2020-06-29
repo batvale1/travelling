@@ -1,0 +1,25 @@
+@import "./__header/__header.css";
+@import "./__footer/__footer.css";
+.page {
+    max-width: 74rem;
+    margin: 0 auto;
+    min-width: 18rem;
+}
+
+@media screen and (max-width: 79.99rem) {
+    .page {
+        margin: 0 3rem;
+    }
+}
+
+@media screen and (max-width: 63.99rem) {
+    .page {
+        margin: 0 1.5rem;
+    }
+}
+
+@media screen and (max-width: 47.99rem) {
+    .page {
+        margin: 0 1rem;
+    }
+}

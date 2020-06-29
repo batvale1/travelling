@@ -1,0 +1,15 @@
+@import "../../fonts/Inter/inter.css";
+@import "./__link-title/__link-title.css";
+@import "./__link/__link.css";
+
+.link-to-go {
+    display: grid;
+    grid-template-columns: max-content;
+    color: #aaa;
+}
+
+@media screen and (max-width: 47.99rem) {
+    .link-to-go {
+        display: none;
+    }
+}

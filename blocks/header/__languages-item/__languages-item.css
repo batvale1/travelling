@@ -1,0 +1,19 @@
+@import "./_active/_active.css";
+
+.header__languages-item {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #FFF;
+    transition: opacity .2s linear;
+    line-height: .9683em;
+}
+
+.header__languages-item:hover {
+    opacity: .7;
+}
+
+@media screen and (max-width: 47.99rem) {
+    .header__languages-item {
+        font-size: 1.125em;
+    }
+}

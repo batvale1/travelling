@@ -1,0 +1,21 @@
+.lead__text {
+    font-size: 1.875em;
+    color: #FFF;
+    text-align: center;
+    margin: 3rem auto 0 auto;
+    max-width: 17em;
+    line-height: 1.2em;
+}
+@media screen and (max-width: 63.99rem) {
+    .lead__text {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 47.99rem) {
+    .lead__text {
+        font-size: 1em;
+        line-height: 1.4375em;
+        margin-top: 0.5rem;
+    }
+}

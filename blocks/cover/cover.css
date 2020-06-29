@@ -1,0 +1,9 @@
+@import "../../fonts/Inter/inter.css";
+@import "./__title/__title.css";
+@import "./__text/__text.css";
+@import "./__link/__link.css";
+
+.cover {
+    font-family: Inter, Arial, sans-serif;
+    position: relative;
+}

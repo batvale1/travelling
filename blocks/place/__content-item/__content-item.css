@@ -1,0 +1,12 @@
+.place__content-item {
+    font-size: 1.125em;
+    line-height: 1.6667em;
+    margin: 0;
+}
+
+@media screen and (max-width: 63.99rem) {
+    .place__content-item {
+        font-size: 1em;
+        line-height: 1.6875em;
+    }
+}

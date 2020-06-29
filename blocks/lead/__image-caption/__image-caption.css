@@ -1,0 +1,14 @@
+.lead__image-caption {
+    font-size: .625em;
+    color: #fff;
+    margin-top: 1rem;
+    letter-spacing: 0.15em;
+    line-height: 1.2em;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 63.99rem) {
+    .lead__image-caption {
+        margin-top: 0.5rem;
+    }
+}

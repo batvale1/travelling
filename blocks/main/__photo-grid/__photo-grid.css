@@ -1,0 +1,21 @@
+.main__photo-grid {
+    margin: 6.375rem auto 0 auto;
+}
+
+@media screen and (max-width: 79.99rem) {
+    .main__photo-grid {
+        margin-top: 6.0625rem;
+    }
+}
+
+@media screen and (max-width: 63.99rem) {
+    .main__photo-grid {
+        margin-top: 6.0625rem;
+    }
+}
+
+@media screen and (max-width: 47.99rem) {
+    .main__photo-grid {
+        margin-top: 4rem;
+    }
+}

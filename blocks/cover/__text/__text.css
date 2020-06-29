@@ -1,0 +1,33 @@
+.cover__text {
+    font-size: 1.125em;
+    line-height: 1.444em;
+    max-width: 20.875em;
+    z-index: 20;
+    text-align: center;
+    margin: 7.5rem auto 3rem;
+}
+
+@media screen and (max-width: 79.99rem) {
+    .cover__text {
+        margin-top: 6rem;
+    }
+}
+
+@media screen and (max-width: 63.99rem) {
+    .cover__text {
+        max-width: 22em;
+        margin: 2.81rem auto 2.5rem;
+    }
+}
+
+@media screen and (max-width: 47.99rem) {
+    .cover__text {
+        font-size: .875em;
+    }
+}
+
+@media screen and (max-width: 23.43rem) {
+    .cover__text {
+        line-height: 1.214em;
+    }
+}

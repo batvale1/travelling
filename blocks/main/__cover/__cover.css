@@ -1,0 +1,28 @@
+.main__cover {
+    margin: 6.375rem auto 0 auto;
+}
+
+
+@media screen and (max-width: 79.99rem) {
+    .main__cover {
+        width: calc(100% + 6rem);
+        margin-left: -3rem;
+        margin-right: -3rem;
+    }
+}
+
+@media screen and (max-width: 63.99rem) {
+    .main__cover {
+        width: calc(100% + 3rem);
+        margin-left: -1.5rem;
+        margin-right: -1.5rem;
+    }
+}
+
+@media screen and (max-width: 47.99rem) {
+    .main__cover {
+        width: calc(100% + 2rem);
+        margin-left: -1rem;
+        margin-right: -1rem;
+    }
+}

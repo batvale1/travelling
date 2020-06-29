@@ -1,0 +1,6 @@
+.emblem__img {
+    max-height: 14em;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: 50% 50%;
+}

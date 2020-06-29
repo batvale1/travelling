@@ -1,0 +1,9 @@
+@import "../../fonts/Inter/inter.css";
+@import "./__logo/__logo.css";
+@import "./__languages/__languages.css";
+@import "./__languages-item/__languages-item.css";
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+

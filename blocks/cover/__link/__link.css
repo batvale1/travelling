@@ -1,0 +1,48 @@
+.cover__link {
+    width: 100%;
+    min-height: 37.125rem;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-decoration: none;
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url("../../../images/na-electrichkah.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.cover__link:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transition: background-color .2s linear;
+}
+
+.cover__link:hover:after {
+    background-color: rgba(0, 0, 0, .7);
+    z-index: 10;
+}
+
+@media screen and (max-width: 63.99rem) {
+    .cover__link {
+        min-height: initial;
+        height: calc(100vw / 1.6);
+    }
+}
+
+@media screen and (max-width: 47.99rem) {
+    .cover__link {
+        min-height: initial;
+        height: calc(100vw / 1.5);
+    }
+}
+
+@media screen and (max-width: 23.43rem) {
+    .cover__link {
+
+    }
+}

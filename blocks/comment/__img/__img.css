@@ -1,0 +1,15 @@
+.comment__img {
+    width: 6.125em;
+    height: 6.125em;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    align-self: flex-start;
+}
+
+@media screen and (max-width: 63.99rem) {
+    .comment__img {
+        order: 10;
+        align-self: center;
+    }
+}

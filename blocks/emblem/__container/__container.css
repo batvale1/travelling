@@ -1,0 +1,8 @@
+.emblem__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(5em, 11.63em));
+    grid-gap: 3.5em;
+    justify-items: center;
+    margin: 5.125em 0 0 0;
+    justify-content: center;
+}

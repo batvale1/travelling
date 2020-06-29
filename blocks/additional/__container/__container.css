@@ -1,0 +1,10 @@
+.additional__container {
+    width: 100%;
+    z-index: 10;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 17.75em);
+    grid-gap: 1rem;
+    position: relative;
+    justify-content: center;
+}

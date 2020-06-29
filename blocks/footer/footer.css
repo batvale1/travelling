@@ -1,0 +1,18 @@
+@import "../../fonts/Inter/inter.css";
+@import "./__menu/__menu.css";
+@import "./__menu-link/__menu-link.css";
+@import "./__copyright/__copyright.css";
+
+.footer {
+    color: #fff;
+    font-family: Inter, Arial, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: end;
+}
+
+@media screen and (max-width: 47.99rem) {
+    .footer {
+        display: block;
+    }
+}

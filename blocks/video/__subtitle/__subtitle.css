@@ -1,0 +1,18 @@
+.video__subtitle {
+    max-width: 26em;
+    margin: 3rem 0 0 0;
+    text-align: center;
+}
+
+@media screen and (max-width: 63.99rem) {
+    .video__subtitle {
+        margin-top: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 47.99rem) {
+    .video__subtitle {
+        margin-top: 1rem;
+    }
+}
+

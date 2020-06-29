@@ -1,0 +1,11 @@
+.common-subtitle {
+    font-size: 1.5em;
+    line-height: 1.4583em;
+}
+
+@media screen and (max-width: 47.99rem) {
+    .common-subtitle {
+        font-size: 1em;
+        line-height: 1.4375em;
+    }
+}

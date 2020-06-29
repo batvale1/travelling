@@ -1,0 +1,10 @@
+@import "../../fonts/Inter/inter.css";
+@import "__author/__author.css";
+@import "__img/__img.css";
+@import "__quote/__quote.css";
+
+.comment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

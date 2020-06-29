@@ -1,0 +1,25 @@
+.footer__menu-link {
+    font-size: 1.5em;
+    color: #fff;
+    text-decoration: none;
+    transition: opacity .2s linear;
+    line-height: 1.7083em;
+}
+
+.footer__menu-link:hover {
+    opacity: .7;
+}
+
+@media screen and (max-width: 63.99rem) {
+    .footer__menu-link {
+        font-size: 1em;
+        line-height: 1.6875em;
+    }
+}
+
+@media screen and (max-width: 47.99rem) {
+    .footer__menu-link {
+        font-size: 1.5em;
+        line-height: 1.7083em;
+    }
+}

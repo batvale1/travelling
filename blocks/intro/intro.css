@@ -1,0 +1,16 @@
+@import "../../fonts/Inter/inter.css";
+@import "__heading/__heading.css";
+@import "__subheading/__subheading.css";
+@import "__author/__author.css";
+@import "__content/__content.css";
+@import "__content-item/__content-item.css";
+@import "__copyright/__copyright.css";
+@import "__date/__date.css";
+@import "__fact/__fact.css";
+@import "__facts/__facts.css";
+@import "__text-subtitle/__text-subtitle.css";
+
+.intro {
+    color: #fff;
+    font-family: Inter, Arial, sans-serif;
+}

@@ -1,0 +1,5 @@
+.places__content {
+    display: grid;
+    grid-row-gap: 2.25em;
+    align-content: start;
+}
